@@ -1,0 +1,154 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 62.5%;
+	font: inherit;
+    vertical-align: baseline;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    margin: 2em;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100vw;
+    margin: 1em;
+}
+
+nav a {
+    display: flex;
+    color: white;
+    border-radius: 1em;
+    width: 10vw;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 0.5em;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.plan-visit {
+    background-color: #FF764E;
+}
+
+.learn-about {
+    background-color: #5ED3EB;
+}
+
+.get-involved {
+    background-color: #FFCD69;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-img {
+    border-radius: 45em;
+    width: 30vw;
+    margin: 0 4.5em 0 0;
+}
+
+.title {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 3.5em;
+    margin-bottom: 0.5em;
+}
+
+.header-text p {
+    width: 35vw;
+    text-align: center;
+    margin: 1em;
+}
+
+.container {
+    background-color: #DDB9A3;
+    width: 90vw;
+    margin: 0.5em;
+    text-align: center;
+    color: white;
+    padding: 0.5em;
+}
+
+.body-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.4em;
+}
+
+.fire {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.fire img {
+    height: 5em;
+    margin-top: 1em;
+}
+
+.fire p {
+    text-align: center;
+    width: 25vw;
+    margin: 0.5em;
+}
+
+.reservations {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.reservations img {
+    height: 5em;
+    margin-top: 1em;
+}
+
+.reservations p {
+    text-align: center;
+    width: 25vw;
+    margin: 0.5em;
+}
+
+footer {
+    background-color: #F9E7DC;
+    align-content: center;
+}
+
+footer img {
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+    object-position: 20% 10%;
+}
